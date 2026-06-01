@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanka Taxis | Airport Transfers & Taxi Service Sri Lanka</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('https://images.unsplash.com/photo-1494515843206-f3117d3f51b7') center/cover no-repeat;
+      height: 90vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .section-title {
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+
+    .service-card {
+      transition: 0.3s;
+      border: none;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .cta {
+      background: #0d6efd;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .footer {
+      background: #111;
+      color: #aaa;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Lanka Taxis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#fleet">Fleet</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1>Safe & Comfortable Taxi Services in Sri Lanka</h1>
+    <p class="lead mt-3">
+      Book your dream taxi easily with professional drivers & reliable airport transfers.
+    </p>
+    <a href="#contact" class="btn btn-primary btn-lg mt-3">Book Now</a>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Our Services</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card service-card p-4">
+          <h5>Airport Transfers</h5>
+          <p>Fast and reliable pickup & drop services from all major airports in Sri Lanka.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card service-card p-4">
+          <h5>City Rides</h5>
+          <p>Comfortable and affordable rides within Colombo and other major cities.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card service-card p-4">
+          <h5>Tour Packages</h5>
+          <p>Explore Sri Lanka with customized tour packages and experienced drivers.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1549921296-3a6b0b2a1a8b" class="img-fluid rounded" alt="Taxi Service">
+      </div>
+      <div class="col-md-6">
+        <h2 class="section-title">About Lanka Taxis</h2>
+        <p>
+          Lanka Taxis is a trusted provider of comfortable taxi services & airport transfers in Sri Lanka.
+          We ensure safe journeys with professional drivers, clean vehicles, and 24/7 availability.
+        </p>
+        <p>
+          Whether you are traveling for business or leisure, we guarantee a smooth and reliable ride every time.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fleet / Why Choose Us -->
+<section id="fleet" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Why Choose Us</h2>
+
+    <div class="row g-4">
+      <div class="col-md-3">
+        <h5>24/7 Service</h5>
+        <p>Always available for your travel needs.</p>
+      </div>
+      <div class="col-md-3">
+        <h5>Professional Drivers</h5>
+        <p>Experienced and friendly drivers.</p>
+      </div>
+      <div class="col-md-3">
+        <h5>Clean Vehicles</h5>
+        <p>Well-maintained and comfortable cars.</p>
+      </div>
+      <div class="col-md-3">
+        <h5>Affordable Rates</h5>
+        <p>Best price with premium service.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / Contact Section -->
+<section id="contact" class="cta">
+  <div class="container">
+    <h2>Ready to Book Your Ride?</h2>
+    <p class="mt-2">Visit our official website for more details and instant booking.</p>
+
+    <a href="https://your-official-website.com" class="btn btn-light btn-lg mt-3">
+      Visit Official Website
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2026 Lanka Taxis. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
